@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Luciano Britis">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construindo páginas para internet com Bootstrap</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,100' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <!-- Just an image -->
+                <img src="img/logo_ship_90.png" width="45" height="45"
+                    alt="Viking Code School Logo | Become A Web Developer Online " />
+                Viking Code School
+            </a>
+            <!-- Btn collapse -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="barra-navegacao" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar content -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- Links -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#quemsomos">Quem somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#parceiros">Parceiro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicos">Serviços</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- //Navbar content -->
+    <!-- Capa content -->
+    <div class="header">
+        <div class="container">
+            <h1>Digital Inovation <br>One</h1>
+            <p class="texto-capa">Conheça a Digital Inovation One, um novo tipo de escola de tecnologia que oferece
+                aprendizado individual por meio de sua rede de especialistas do setor, contratação de parceiros e
+                plataforma online para oferecer uma educação estruturada e flexível.
+            </p>
+        </div>
+    </div>
+    <!-- //Capa content -->
+    <!-- Who are you content -->
+    <section id="quemsomos">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Professores e Especialistas.</h3>
+                    <p>Nosso corpo docente é formado pelos profissionais mais apaixonados, enérgicos e experientes
+                        em sua área. Eles estão constantemente aprimorando as práticas de ensino para acompanhar uma
+                        indústria em rápida evolução, garantindo que você esteja pronto para entrar na próxima força
+                        de trabalho do mundo.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <h3>Uma equipe construída em torno do seu sucesso.</h3>
+                    <p>Sua equipe dedicada está totalmente focada em você. Desde a orientação diária do mentor até
+                        o coaching de carreira ao longo do programa e além, você nunca fica sem suporte.</p>
+                    <p>Acreditamos que os alunos adultos podem tomar suas próprias decisões sobre qual espaço de
+                        estudo funciona melhor para eles - seja um café, um espaço de trabalho compartilhado ou seu
+                        próprio quintal.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //Who are you content -->
+    <!-- Partner content -->
+    <section id="parceiros">
+        <div class="container-fluid">
+            <h3 class="text-center">Parcerias</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-xs-12">
+                        <p>
+                            Digital Innovation One é a plataforma de cursos online gratuita e completa para você
+                            aprender
+                            programação, arquitetura e desenvolvimento de software, desenvolver sua carreira digital
+                            e
+                            se
+                            conectar com as melhores oportunidades profissionais.
+                        </p>
+                        <a type="button" href="https://digitalinnovation.one/" style="text-decoration: none;"
+                            target="_blank">Saiba
+                            mais</a>
+                    </div>
+                    <div class="col-md-4 dio">
+                        <img src="img/cover_dio.jpg" class="img-fluid" alt="DIO" height="150" width="auto">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //Partner content -->
+    <!-- Servicos content -->
+    <section id="servicos">
+        <div class="container">
+            <div class="row">
+                <!-- album -->
+                <div class="col-md-6">
+                    <div class="row albuns">
+                        <div class="col-md-6">
+                            <img src="img/img1.jpg" class="img-fluid" href="#">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="img/img2.jpg" class="img-fluid" href="#">
+                        </div>
+                    </div>
+                    <div class="row albuns">
+                        <div class="col-md-6">
+                            <img src="img/img3.jpg" class="img-fluid" href="#">
+                        </div>
+
+                        <div class="col-md-6">
+                            <img src="img/img4.jpg" class="img-fluid" href="#">
+                        </div>
+                    </div>
+                </div>
+                <!-- Serviços content -->
+                <div class="col-md-6 albuns1">
+                    <h2>O que é um Bootcamp?</h2>
+                    <h3>Reduz o tempo de entrada no mercado</h3>
+                    <p>O Bootcamp é um programa de ensino imersivo que foca nas habilidades mais relevantes de
+                        determinada área para atuar no mercado do século XXI.
+                    </p>
+
+                    <h3>Ensino de Alto Impacto</h3>
+                    <p>
+                        O bootcamp de programação tem um programa de conteúdo muito menor do que uma faculdade
+                        tradicional, pois inclui apenas as habilidades mais relevantes para construir e lançar
+                        aplicações em um nível profissional.
+                    </p>
+
+                    <h3>Grandes Transformações</h3>
+                    <p>Já deu pra perceber que o ritmo de um bootcamp é intenso. As 8 horas diárias de estudo
+                        imersivo geram grandes transformações. Além de aprender muito em um curto período de tempo,
+                        os alunos adquirem habilidades de gestão de tempo e das emoções pessoais diante dos desafios
+                        de trabalhar em equipe, com prazos curtos e conhecimentos recém obtidos.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //Servicos content -->
+    <div class="footer">
+        <div class="container">
+            <p>&copy; 2021 Desenvolvido por Luciano Britis</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

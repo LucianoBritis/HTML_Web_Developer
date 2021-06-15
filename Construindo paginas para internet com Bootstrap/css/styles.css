@@ -1,0 +1,142 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    overflow-x: hidden;
+}
+
+section {
+    --section-nav: #D94625;
+    --section-quemsomos: #EBEEF2;
+    --section-parceiros: #9BB1F2;
+    --section-servicos: #F5EDED;
+    --section-footer: #D9653B;
+}
+
+.header {
+    background: url('https://s3.amazonaws.com/viking_education/home/images/homepage_header.jpg'), url('/bootstrap/img/ruido.png'), linear-gradient(60deg, #c9e629 0, #a7fa22 100%) no-repeat center;
+    background-size: cover;
+    height: 700px;
+    text-align: center;
+    border-bottom: 4px solid #D94625;
+}
+
+.header .container {
+    position: relative;
+    top: 200px;
+}
+
+.header h1 {
+    color: #fff;
+    line-height: 100px;
+    font-size: 100px;
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.navbar {
+    background-color: var(--section-nav, #dc3545);
+}
+
+.texto-capa {
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    text-shadow: 2px 2px 8px #000000;
+}
+
+#quemsomos {
+    padding: 30px 10px;
+    background-color: var(--section-quemsomos, #EBEEF2);
+    color:#0D0D0D;;
+}
+
+#parceiros {
+    padding: 30px 10px;
+    background-color: var(--section-parceiros, #9BB1F2);
+    color: #0D0D0D;
+}
+
+#servicos {
+    padding: 30px 10px;
+    background-color: var(--section-servicos, #F5EDED);
+}
+
+.albuns {
+    padding: 10px 0px 10px 0px;
+}
+
+.footer {
+    background: var(--section-footer, #D9653B);
+    height: 80px;
+    padding-bottom: 0px;
+}
+
+.footer p {
+    color: #fff;
+    font-size: 14px;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 900px;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3 {
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+#servicos h2,
+#servicos h3 {
+    color: #380c1a;
+}
+
+#servicos p {
+    font-size: 1.3rem;
+    color: #0D0D0D;
+}
+
+#parceiros h3 {
+    font-size: 40px;
+    color:#0D0D0D;
+}
+
+@media (max-width: 900px) {
+
+    .header h1 {
+        font-size: 80px;
+    }
+    .texto-capa {
+       padding-bottom: 0;
+       font-size: 16px;
+    }
+
+    .albuns,
+    .dio {
+        display: none;
+    }
+
+    .albuns1 {
+        width: 100%;
+    }
+}
